@@ -8,3 +8,6 @@
 import Foundation
 //bls
 //print("fgfkfhjk")
+class blabla {
+    
+}
