@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14706C8262C379E004482CE /* keybord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14706C7262C379E004482CE /* keybord.swift */; };
+		C19326952621CA7D005A5647 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19326942621CA7D005A5647 /* ColorViewController.swift */; };
 		C1AF7DAD260E0EE700F79154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF7DAC260E0EE700F79154 /* AppDelegate.swift */; };
 		C1AF7DAF260E0EE700F79154 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF7DAE260E0EE700F79154 /* SceneDelegate.swift */; };
-		C1AF7DB1260E0EE700F79154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF7DB0260E0EE700F79154 /* ViewController.swift */; };
+		C1AF7DB1260E0EE700F79154 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AF7DB0260E0EE700F79154 /* SettingsViewController.swift */; };
 		C1AF7DB4260E0EE700F79154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AF7DB2260E0EE700F79154 /* Main.storyboard */; };
 		C1AF7DB6260E0EEC00F79154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AF7DB5260E0EEC00F79154 /* Assets.xcassets */; };
 		C1AF7DB9260E0EEC00F79154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AF7DB7260E0EEC00F79154 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C14706C7262C379E004482CE /* keybord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keybord.swift; sourceTree = "<group>"; };
+		C19326942621CA7D005A5647 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		C1AF7DA9260E0EE700F79154 /* setColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = setColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AF7DAC260E0EE700F79154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1AF7DAE260E0EE700F79154 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1AF7DB0260E0EE700F79154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1AF7DB0260E0EE700F79154 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C1AF7DB3260E0EE700F79154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1AF7DB5260E0EEC00F79154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1AF7DB8260E0EEC00F79154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C193268E2621C82F005A5647 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1AF7DB0260E0EE700F79154 /* SettingsViewController.swift */,
+				C19326942621CA7D005A5647 /* ColorViewController.swift */,
+				C14706C7262C379E004482CE /* keybord.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C193268F2621C87A005A5647 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C1AF7DB2260E0EE700F79154 /* Main.storyboard */,
+				C1AF7DB7260E0EEC00F79154 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C19326902621C8AE005A5647 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C1AF7DAC260E0EE700F79154 /* AppDelegate.swift */,
+				C1AF7DAE260E0EE700F79154 /* SceneDelegate.swift */,
+				C1AF7DBA260E0EEC00F79154 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		C19326922621C8C4005A5647 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1AF7DB5260E0EEC00F79154 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C1AF7DA0260E0EE700F79154 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +97,10 @@
 		C1AF7DAB260E0EE700F79154 /* setColor */ = {
 			isa = PBXGroup;
 			children = (
-				C1AF7DAC260E0EE700F79154 /* AppDelegate.swift */,
-				C1AF7DAE260E0EE700F79154 /* SceneDelegate.swift */,
-				C1AF7DB0260E0EE700F79154 /* ViewController.swift */,
-				C1AF7DB2260E0EE700F79154 /* Main.storyboard */,
-				C1AF7DB5260E0EEC00F79154 /* Assets.xcassets */,
-				C1AF7DB7260E0EEC00F79154 /* LaunchScreen.storyboard */,
-				C1AF7DBA260E0EEC00F79154 /* Info.plist */,
+				C193268E2621C82F005A5647 /* ViewControllers */,
+				C193268F2621C87A005A5647 /* Storyboards */,
+				C19326902621C8AE005A5647 /* Support */,
+				C19326922621C8C4005A5647 /* Resources */,
 			);
 			path = setColor;
 			sourceTree = "<group>";
@@ -137,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1AF7DB1260E0EE700F79154 /* ViewController.swift in Sources */,
+				C14706C8262C379E004482CE /* keybord.swift in Sources */,
+				C1AF7DB1260E0EE700F79154 /* SettingsViewController.swift in Sources */,
 				C1AF7DAD260E0EE700F79154 /* AppDelegate.swift in Sources */,
+				C19326952621CA7D005A5647 /* ColorViewController.swift in Sources */,
 				C1AF7DAF260E0EE700F79154 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7625BBDFN3;
-				INFOPLIST_FILE = setColor/Info.plist;
+				INFOPLIST_FILE = setColor/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7625BBDFN3;
-				INFOPLIST_FILE = setColor/Info.plist;
+				INFOPLIST_FILE = setColor/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
